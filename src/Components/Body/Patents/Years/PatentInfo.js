@@ -19,7 +19,7 @@ function PatentInfo(){
 
     useEffect(() => {
         const fetchData = async () => {
-            const data = await axios.get(`http://13.233.51.172/patents/wipo/${wno}`);
+            const data = await axios.get(`http://3.110.168.55/patents/wipo/${wno}`);
             console.log(data.data[0].formula);
             // console.log(patents[0].formula);
             setPatentFormulas(data.data[0].formula);
