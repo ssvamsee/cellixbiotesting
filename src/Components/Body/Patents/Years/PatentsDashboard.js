@@ -36,7 +36,7 @@ console.log(patents)
                 </div>
             </div>
             {loading ? (<PatentCardSkeleton></PatentCardSkeleton>) : (
-                patents.map((patent) => (
+                patents?.map((patent) => (
                     <div className='CardContainer'>
                             <Card
                                 style={{ width: '90rem' }} 
