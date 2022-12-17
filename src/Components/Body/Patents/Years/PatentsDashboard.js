@@ -19,14 +19,13 @@ function PatentsDashboard(){
             setLoading(true);
             try {
                 const data = await axios.get(`http://13.233.51.172/patents/years/${years}`);
-                setPatents(data);
+                setPatents(data.data);
             } catch (err) {}
             setLoading(false);
         };
         fetchData();
     }, []);
-    console.log(patents.data);
-    // console.log(patents.data.length);
+console.log(patents)
 
     return(
         <div>
@@ -37,7 +36,7 @@ function PatentsDashboard(){
                 </div>
             </div>
             {loading ? (<PatentCardSkeleton></PatentCardSkeleton>) : (
-                patents.data.map((patent) => (
+                patents.map((patent) => (
                     <div className='CardContainer'>
                             <Card
                                 style={{ width: '90rem' }} 
