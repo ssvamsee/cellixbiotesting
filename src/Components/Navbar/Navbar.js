@@ -54,8 +54,8 @@ function NavBar() {
                         <Route path='/Contact' element = {<Contact></Contact>}></Route>
                         <Route path='/PatentsDashboard/:years' element = {<PatentsDashboard></PatentsDashboard>}></Route>
                         <Route path='/PatentInfo/:wno' element = {<PatentInfo></PatentInfo>}></Route>
-                        <Route path='/Cellix_Bio' element={<Home></Home>}></Route>
-                        <Route path='/' element={<Home></Home>}></Route>
+                        <Route path='/cellixbiotesting' element={<Home></Home>}></Route>
+                        {/* <Route path='/' element={<Home></Home>}></Route> */}
                         <Route path='*' element={<Error404/>}></Route>
                     </Routes>
                 </div>
