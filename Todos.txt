@@ -1,0 +1,22 @@
+CHANGES REQUIRED:
+-> Connect to DB. (Done)
+-> Use React Fragments (Done)
+-> Add dynamic Routing to years and patentDashboard (Done)
+-> Implement redux or redux-toolkit to react app (Optional)
+-> Add Loading Animation while loading home page, patentDashboard, PatentInfo (Done)
+-> Add pagination in patentDashboard 
+-> Display Patent WIPO no in PatentInfo (Done)
+-> Search Bar should be functioned with both WIPO No and Therapeutic Area (Done)
+-> Store Contact Us Information in new Collection in MongoDB (Done)
+-> GotoTop Arrow in PatentInfo (Done)
+-> Implement React Memoization
+-> Make it SEO 
+-> Lazy Loading
+-> Add sort Asc or Desc in PatentsDashboard
+-> World Wide Patents should be Displayed (Optional)
+-> Build should be worked
+-> Carousel Text should be responsive (Done)
+-> Testing should be done
+-> Deploy React App in AWS using EC2 in multiple instances (Done Partially)
+
+

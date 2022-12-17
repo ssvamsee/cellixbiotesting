@@ -1,0 +1,1456 @@
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.logo{
+  width:10rem;
+  height: 5rem;
+  display: inline;
+}
+
+/* Used for Footer */
+.Navlink{
+  color: #4e545f !important;
+}
+.Navlink:hover{
+  color: aliceblue !important;
+  font-size: 15px;
+}
+.FooterInfoContainer{
+  display: flex;
+  flex-direction: row;
+}
+.FooterUL{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.FooterIcons{
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  /* max-width: 100%;
+  min-width: 100%; */
+}
+.FooterContainerp{
+  display: flex;
+  font-size: 1vw;
+}
+.Fimg{
+  width:150px;
+  height: 80px;
+}
+.shadow{
+  background-color: #282c34 !important;
+  margin-top: 8% !important;
+  color: #4e545f !important;
+  height: 45vh !important;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width:600px) {
+  .shadow{
+    height: 70vh !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  span.Fdetails {
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  b.Fdetails {
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  small.ml-2 {
+    font-size: 0.8vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  span.my-3 {
+    font-size: 2vh;
+  }
+}
+/* .............. */
+
+/* Used for Carousel for Home Page */
+.Carouselh1{
+  margin-top: -50vh !important;
+  font-size: 4vw;
+}
+
+.Carouselp{
+  font-size: 1.5vw;
+  margin-top: 5% !important;
+}
+@media screen and (max-width: 600px) {
+  p.Carouselp {
+    font-size: 1.2vh;
+    text-align: center;
+    justify-content: center;
+ }
+}
+/* ............................... */
+/* Used for What We Do */
+.WWD{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.WWDContainerh34{
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.WWDPContainer{
+  text-align: justify;
+  margin-top: 2%;
+  justify-content: center;
+  width: 70%;
+  margin-left: 15%;
+  }
+
+.WWDP{
+  text-align: justify;
+  padding: 10;
+  font-size: 1vw;
+  }
+
+.WWDh3{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  margin-top: 1%;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 2vw;
+  background-color: white;
+  position: relative;
+  animation: header 3s 1;
+}
+@keyframes header {
+  0%{
+   color: white;
+   margin-bottom: -45px;
+  }
+  30%{
+   letter-spacing: 25%;
+   margin-bottom: -45px;
+  }
+  85%{
+   letter-spacing: 8px;
+   margin-bottom: -45px;
+  }
+}
+
+.WWDh4{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5vw;
+  color: #282c34;
+  display: block;
+  }
+  
+@media screen and (max-width: 600px) {
+  h3.WWDh3 {
+    font-size: 2.5vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  h4.WWDh4 {
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  p.WWDP {
+    font-size: 1.8vh;
+    text-align: justify;
+  }
+}
+/* .................... */
+/* Used for Patent Home */
+.PatentHomeContainer{
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.PatentHomeImg{
+  width: 100%;
+  height: 500px;
+  margin-top: 2%;
+  box-shadow: 0 0.5rem 3rem 0.5rem rgba(0,0,0,.175) !important;
+}
+@media screen and (max-width: 600px) {
+  img.PatentHomeImg {
+ height: 250px;  }
+}
+
+.PatentHomep{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3vw;
+  border: none;
+  text-align: center;
+  width: 100%;
+  font-weight: 600;
+}
+.PatentHomeButton{
+  position: absolute;
+  top: 34%;
+  left: 46%;
+  color: white;
+  font-size: 2vw;
+  width: 10% !important;
+  height: 10% !important;
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .PatentHomeButton {
+top:35%;
+left:46%;
+font-size:1vh !important;
+padding: 0px !important;
+  }
+}
+/* ...................... */
+/* Used for Team Work */
+.TeamWorkh3{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  margin-top: 2%;
+  font-size: 2vw;
+}
+
+.TeamWorkImgdiv{
+   justify-content: center;
+   margin-top: 3%;
+   margin-left: 10%;
+   margin-right: 10%;
+   box-shadow: 0 0 20px 2px rgba(0,0,0, .1);
+   transition: 2s;
+   position: relative;
+}
+
+.TeamWorkImg{
+  display: block;
+  width: 100% !important;
+  height: 50% !important;
+  border-radius: 5px;
+  height: 35vh;
+  width: 25vw;
+}
+
+.TeamWorkp{
+  text-align: justify;
+  font-size: 1vw;
+  padding: 10;
+  margin-right: 15%;
+  margin-left: 2%;
+}
+.TeamworkButton{
+  position: absolute;
+  top: 75%;
+  left: 6%;
+  background-color: #609FE2 !important;
+  color: white !important;
+  font-size: 2vw;
+  width: 13% !important;
+  height: 10% !important;
+  opacity: 1;
+}
+@media screen and (max-width: 600px) {
+  .TeamworkButton {
+  top:75%;
+  left:6%;
+  font-size:0.8vh !important;
+  padding: 0px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  span.TWp {
+    font-size: 1.5vh;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 600px) {
+  h3.TeamWorkh3 {
+    font-size: 2.5vh;
+    margin-bottom: 5%;
+    margin-top: 8%;
+  }
+}
+@media screen and (max-width: 600px) {
+  img.TeamWorkImg {
+    width:150px;
+    height: 180px;
+  }
+}
+/* ......................... */
+/* Used for About */
+.About{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.AboutContainerh2{
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.AboutUsh2{
+  font-weight: bolder;
+  color: #282c34;
+  display: block;
+  font-size: 2vw;
+}
+
+.AboutContainer{
+  text-align: center;
+  margin-top: 2%;
+  justify-content: center;
+  width: 70%;
+  margin-left: 16%;
+}
+
+.Aboutp{
+  text-align: justify;
+  padding: 10px;
+  font-size: 1vw;
+}
+@media screen and (max-width: 600px) {
+  .Aboutp {
+    font-size: 2vh;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 600px) {
+  .AboutUsh2 {
+    font-size: 3vh;
+  }
+}
+
+.AboutSpan{
+  color: #282c34;
+  font-size: larger;
+  font-weight: bolder;
+}
+/* .................. */
+/* Used for Patents Page */
+.Desc{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.DescContainerh3{
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+.Desch3{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  margin-top: 1%;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 2vw;
+}
+.DescpContainerp{
+  text-align: center;
+  justify-content: center;
+  width: 70%;
+  margin-left: 16%;
+}
+
+.Descp{
+  text-align: justify;
+  padding: 10px;
+  font-size: 1vw;
+}
+@media screen and (max-width: 600px) {
+  .Descp {
+font-size: 2vh; 
+text-align: justify;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Desch3 {
+font-size: 3vh; 
+  }
+}
+.Carouselul{
+  list-style-type: none;
+}
+
+.SearchPatentsh2Container{
+  text-align: center;
+  align-items: center;
+}
+
+.SearchPatentsh2{
+  font-weight: bold;
+  color: #282c34;
+  display: block;
+  font-size: 2vw;
+  margin: 1%;
+}
+
+@media screen and (max-width: 600px) {
+  .SearchPatentsh2 {
+font-size: 3vh; 
+  }
+}
+
+.SearchPatentContainer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  position: relative;
+  -webkit-box-shadow: none;
+  outline: none;
+}
+@media screen and (max-width: 600px) {
+  .SearchPatentContainer {
+    margin-left: -10vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  input.SearchBarPatents {
+    width: 40vh !important;
+    font-size: 1.5vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .SearchBarButton {
+    margin-left: 48vh !important;
+    background-color: transparent !important;
+  }
+}
+
+.SearchBarPatents{
+  width: 43vw;
+  border: 1px solid;
+  padding: 10px 25px;
+  font-size: 20px;
+  color: #282c34;
+  padding: 5px 10px;
+  border-radius: 10px;
+  align-items: center;
+  margin-left: 28vw;
+  margin-top: 2vw;
+  position: absolute;
+  outline: none;
+}
+
+.SearchBarButton{
+  border: 0;
+  background-color: white;
+  margin-bottom: 1%;
+  margin-left: 68vw;
+  margin-top: 2.3vw;
+  position: relative;
+}
+.PatentsCard{
+  width:75vw !important;
+}
+.skPatentCard{
+  width: 75vw !important;
+}
+
+.PatentsCard:hover{
+  background-color: #f2f2f2 !important;
+}
+@media screen and (max-width: 600px) {
+  .CardContainer {
+    margin-left: 13% !important;
+  }
+}
+.CardContainer{
+  height: 20% !important;
+  margin-left: 10%;
+}
+
+.cardTextContainer{
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.cardTextInfoContainer{
+  flex: 5 !important;
+}
+
+p.CardTextInfo{
+  text-align: left !important;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 600px) {
+  p.CardTextInfo   {
+    text-align: justify !important;
+    text-transform: capitalize;
+  }
+}
+
+.cardTextDateContainer{
+  flex: 1 !important;
+  margin-left: 3%;
+}
+
+.CardTextSpan{
+  font-weight: 500;
+}
+.card-title.h5{
+  text-align: left !important;
+}
+
+.Wno{
+  font-weight: bolder;
+  text-align: left !important;
+  text-decoration-color: #282c34;
+  cursor: pointer;
+  display: inline !important;
+  color: #282c34;
+}
+.skwno{
+  width: 10vw !important;
+  margin-bottom: 20px;
+  height: 25px;
+  animation: skeleton-loading 1s linear infinite alternate;
+  border-radius: 20px;
+  opacity: 0.7;
+}
+
+.Wno:hover{
+  color: #4e545f;
+  font-size: 1.07vw;
+  text-decoration: underline solid !important;
+}
+.PDcontainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.PDcontainerh2{
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.PDh2{
+  font-weight: bolder;
+  color: #282c34;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 2vw;
+}
+@media screen and (max-width: 600px) {
+  .PDh2   {
+    font-size: 2vh;
+  }
+}
+
+.skcardTextInfoContainer{
+  flex: 5 !important;
+  animation: skeleton-loading 1s linear infinite alternate;
+  border-radius: 23px;
+  width: 400px;
+  height: 20px;
+  opacity: 0.7;
+}
+
+.skcardTextDateContainer{
+  flex: 1;
+  margin-left: 3%;
+  animation: skeleton-loading 1s linear infinite alternate;
+  border-radius: 20px;
+  width: 100px;
+  height: 23px;
+  opacity: 0.7;
+}
+
+.skcardTextInfoContainer1{
+  margin-top: 1%;
+  animation: skeleton-loading 1s linear infinite alternate;
+  border-radius: 20px;
+  width: 81%;
+  height: 20px;
+  opacity: 0.7;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
+/* ................... */
+/* Used for Years */
+.yearcontainer{
+  margin-top: 5% !important;
+  align-content: space-around;
+  display: grid;
+  justify-content: space-between;
+}
+.col-md-2{
+  margin-right: 2vw !important;
+  margin-bottom: 20px;
+}
+.yearbtn{
+  width:10vw !important;
+  height: 100px;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+}
+
+@media screen and (max-width:600px) {
+ div.col-md-2{
+  width: 25vh !important;
+ } 
+}
+@media screen and (max-width:600px) {
+  Button.yearbtn{
+   width: 30vh !important;
+   margin-left: 4% !important;
+  } 
+ }
+.yearp{
+  margin-top: 7px !important;
+  font-size: 15px;
+  color:#f2f2f2;
+}
+.yearp:hover{
+text-decoration: underline;
+}
+
+.YearsButtonContainer{
+  margin-top: 1%;
+  margin-left: 30%;
+}
+
+.YearsLinks{
+  color: white;
+  display: block;
+}
+
+.YearsLinks:hover{
+  color: white;
+}
+
+/* ....................... */
+/* Used For Platform technology */
+.PT{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+  h2.PTh2 {
+    font-size: 3vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  h3.PTh3 {
+    font-size: 2vh;
+
+  }
+}
+@media screen and (max-width: 600px) {
+  h4.PTh3 {
+    font-size: 1.5vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  p.PTp {
+    font-size: 2vh;
+    text-align: justify;
+
+  }
+}
+@media screen and (max-width: 600px) {
+  ul.PTUL {
+    font-size: 2vh;
+  }
+}
+
+.PTh2{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  display: block;
+  font-size: 2vw;
+  animation: header 3s 1;
+}
+
+@keyframes header {
+  0%{
+   color: white;
+   margin-bottom: 20px;
+  }
+  30%{
+   letter-spacing: 25%;
+   margin-bottom: 20px;
+  }
+  85%{
+   letter-spacing: 8px;
+   margin-bottom: 20px;
+  }
+}
+
+.PTh3{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  display: block;
+  font-size: 1.5vw;
+}
+
+.PTh4{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 1.5vw;
+}
+
+.PTpContainer{
+  margin-top: 1%;
+  width: 70%;
+  margin-left: 16%;
+}
+
+.PTp{
+  text-align: justify;
+  padding: 5px;
+  font-size: 1vw;
+}
+
+.PTUL{
+  text-align: center;
+  font-size: 1vw;
+  display: inline;
+  list-style: decimal;
+}
+/* ..................... */
+/* Used for Patent Info */
+.PatentInfoh2{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  display: block;
+  font-size: 2vw;
+  text-decoration: underline;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .PatentInfoh2 {
+    font-size: 2vh;
+  }
+}
+.Tabs{
+  width: 55vw;
+  margin-top: 1%;
+  margin-left: 22%;
+  color: #4e545f !important;
+  border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+  .Tabs {
+    width: 45vh;
+    margin-left: 3%;
+  }
+}
+/* ....................... */
+/* Used for Therapuetic Area */
+.TAContainer{
+  margin-top: 1%;
+}
+
+.PITBh4{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  display: block;
+  font-size: 1vw;
+}
+@media screen and (max-width: 600px){
+  .PITBh4{
+font-size: 2vh;
+   }  
+}
+
+.PITBpContainer{
+  display: flex;
+  flex-direction: column;
+  width: 55vw;
+  align-items: center;
+  margin-left: 22%;
+}
+@media screen and (max-width: 600px){
+  .PITBpContainer{
+    width:40vh;
+    margin-left: 8%; 
+ }  
+}
+
+.PITBp{
+  text-align: justify;
+  text-transform: capitalize;
+  margin-top: 1%;
+}
+/* ...................... */
+/* Used For Formulas */
+.FormulaImgContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-color: #4e545f;
+  box-shadow: 0 0.5rem 3rem 0.5rem rgba(0,0,0,.175);
+  width: 100vh;
+  margin-left: 25%;
+  border-radius: 15px;
+  margin-top: 1% !important;
+}
+@media screen and (max-width: 600px){
+  .FormulaImgContainer{
+    width:45vh;
+    margin-left: 3% !important;
+ }  
+}
+@media screen and (max-width: 600px){
+  .PatentImages{
+    width:40vh;
+ }  
+}
+
+.PatentImages{
+  margin: 1%;
+}
+
+/* ................ */
+/* Used for Claims */
+.ClaimsContainer{
+  display: flex;
+  flex-direction: column;
+  border-color: #4e545f;
+  margin-top: 1% !important;
+  box-shadow: 0 0.5rem 3rem 0.5rem rgba(0,0,0,.175);
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 15px;
+}
+.ClaimstextCon{
+  font-size: 0.8vw;
+  text-align: left;
+  margin-left: 2%;
+}
+.ClaimsImgCon{
+  align-items: center;
+}
+span.ClaimsText{
+  text-align: left;
+}
+@media screen and (max-width: 600px){
+  .ClaimsContainer{
+    width:45vh;
+    margin-left: 3% !important;
+ }  
+}
+@media screen and (max-width: 600px){
+  .ClaimsText{
+    font-size: 1vh;
+ }  
+}
+.claimsdatanotfound{
+  align-items: center;
+  margin-left: 10vw;
+}
+/* ............... */
+/* Used for Compounds */
+.CompoundsImgContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0.5rem 3rem 0.5rem rgba(0,0,0,.175);
+  width: 100vh;
+  margin-left: 25%;
+  border-radius: 15px;
+  margin-top: 1% !important;
+}
+
+@media screen and (max-width: 600px) {
+  .CompoundsImgContainer {
+  width: 45vh !important;
+  margin-left: 3% !important;
+
+  }
+}
+
+/* .................... */
+/* Used for Intellectual Property */
+.IPContainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.IPContainerh3{
+  text-align: center;
+  margin-top: 2%;
+}
+
+.IPh3{
+  font-weight: bolder;
+  color: #282c34;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 2vw;
+}
+@media screen and (max-width: 600px) {
+  h3.IPh3 {
+    font-size: 3vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  h4.IPh3 {
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  p.IPp {
+    font-size: 2vh;
+    text-align: justify;
+
+  }
+}
+
+.IPpContainerp{
+  text-align: center;
+  margin-top: 2%;
+  justify-content: center;
+  width: 70%;
+  margin-left: 16%;
+
+}
+
+.IPp{
+  padding: 10px;
+  font-size: 1vw;
+}
+
+.IPContainerh4{
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+@media screen and (max-width: 600px) {
+  .IPAB {
+    margin-left: -18% !important;
+    width: 45vh !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .accordion-button {
+    margin-left: -18% !important;
+    width: 45vh !important;
+  }
+}
+.accordion-button{
+  color:#4e545f  !important;
+  background-color: #282c34 !important;
+  margin-top: 4% !important;
+  border-radius: 7px !important;
+}
+
+.accordion-button:hover{
+  color: whitesmoke !important;
+}
+
+.accordion-item{
+  width: 65%;
+  margin-left: 17.7%;
+  margin-top: 2%;
+  border: none !important;
+}
+/* .......................... */
+/* Used for Pipeline */
+.PLContainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.PLContainerh3{
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.PLh3{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 2vw;
+}
+@media screen and (max-width: 600px) {
+  h3.PLh3 {
+    font-size: 3vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  p.PLp {
+    font-size: 2vh;
+    text-align: justify;
+
+  }
+}
+
+.PLpContainerp{
+  text-align: center;
+  margin-top: 2%;
+  width: 70%;
+  margin-left: 16%;
+}
+
+.PLp{
+  padding: 10px;
+  font-size: 1vw;
+}
+.Ptable{
+  width: 65% !important;
+  margin-left: 18% !important;
+  margin-top: 2% !important;
+  box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+@media screen and (max-width: 600px) {
+  .Ptable {
+    margin-left: 3% !important;
+    width: 53vh !important;
+  }
+}
+tbody,thead{
+  text-align: center;
+}
+/* ............................ */
+/* Used for Contact Us */
+.CUFormContainer{
+  width: 25%;
+  margin-top: 1%;
+  margin-left: 37%;
+}
+
+.CUUL{
+  list-style-type: none;
+  margin-left: -5%;
+}
+
+.CULI{
+  font-weight: bold;
+  color: #282c34;
+}
+
+.CUCT{
+  font-weight: bolder;
+  color: #282c34;
+  text-align: center !important;
+  margin-left: 33% !important;
+}
+
+.CUSpan{
+  font-weight: 500;
+  color: #282c34;
+}
+
+.CUh2{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  margin-top: 2%;
+}
+
+.CUh3{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  margin-top: 5%;
+}
+@media screen and (max-width: 600px) {
+  .CUCard {
+    margin-left: 8% !important;
+  }
+}
+.form-control[name^=me]{
+  height: 100px;
+}
+@media screen and (max-width: 600px) {
+  .CUFormContainer{
+    width: 40vh;
+    margin-top: 1%;
+    margin-left: 4%;
+  }
+}
+/* ........................... */
+
+/* For All Cards */
+.card-text{
+  text-align: center !important;
+}
+/* ............ */
+
+/* Used for Leadership */
+.card-img-top[name^=Li]{
+  width:40% !important;
+  height: 50% !important;
+  margin-left: 30%;
+  margin-top: 2%;
+  border-radius: 5px !important;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+}
+
+.card-img-top{
+  width: 50% !important;
+  height: 40% !important;
+  margin-left: 25%;
+  border-radius: 5px !important;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+}
+
+.card{
+  display: block !important;
+  margin-top: 3% !important;
+  margin-right: 2% !important;
+  margin-left: 2% !important;
+  border: none !important;
+  box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important; 
+}
+.card-footer {
+  text-align: center;
+  font-size: 1vw !important;
+}
+
+@media screen and (max-width: 600px) {
+  .Leadership.card {
+    margin-left: -4% !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .card-footer {
+    text-align: justify;
+  }
+}
+.card-text[name^=Ft]{
+  font-size: 10px !important;
+}
+
+small.Lfm{
+  font-size: 2vh !important;
+}
+
+.card-group{
+  padding: 10px !important;
+}
+
+.PDCardTitle.card-title.h5{
+  text-align: left !important;
+}
+
+.Lh2{
+  margin-left: 42%;
+  margin-top: 3% !important;
+  color: #282c34;
+  text-align: center;
+  font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+  .Lh2 {
+    margin-left: 1% !important;
+  }
+}
+
+
+
+
+
+.ml-3{
+  color: white !important;
+}
+
+b{
+  color: rgb(154, 156, 162);
+}
+
+a{
+  text-decoration: none !important;
+  /* color: #4e545f !important; */
+}
+
+.PH2{
+  margin-bottom: 19%;
+  font-size: 3vw;
+}
+
+@media screen and (max-width: 600px) {
+  h2.PH2 {
+    margin-bottom: 60%;
+    /* text-align: justify; */
+
+  }
+}
+
+
+
+.one-page-arrow{
+  bottom: 26px;
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  margin-left: -16px;
+  width: 32px;
+  height: 32px;
+  font-size: 32px;
+  text-align: center;
+  color: #222;
+}
+
+.scroll{
+  width:25px;
+  height: 25px;
+}
+
+.modalContainer{
+  display: flex;
+  width: 80vw !important;
+  height: 70vh !important;
+  justify-content: center !important;
+  margin-left: 10% !important;
+  margin-top: 9% !important;
+}
+@media screen and (max-width: 600px) {
+  .Mtitle {
+margin-left: -18% !important;
+  }
+}
+
+input[type="search"]::-webkit-search-cancel-button
+{ display: none; }
+
+.Mimg{
+  height: 50%;
+  width: 50%;
+  margin-left: 30%;
+}
+
+.Mimg2{
+  width:65%;
+  margin-left: 30%;
+}
+
+.Mcont1{
+  flex-basis: 40%;
+}
+
+.Mcount2{
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.Mcont{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.Mtext{
+  margin-left: 5%;
+}
+
+.modal-title{
+  text-align: center !important;
+  margin-left: 44% !important;
+  text-decoration: underline !important;
+}
+
+.smallContainer{
+  display: flex;
+  font-size: 1vw;
+}
+
+/* p.my-3{
+width: 100% !important;
+} */
+
+@media screen and (max-width: 600px) {
+  p.IPp {
+    font-size: 2vh;
+    text-align: justify;
+
+  }
+}
+
+.YearsContainerh2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.Yearsh2{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 2vw;
+}
+@media screen and (max-width: 600px) {
+  h2.Yearsh2 {
+    font-size: 2vh; 
+ }
+}
+
+
+.PDcontainerh3{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.PDh3{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 1.5vw;
+}
+
+@media screen and (max-width: 600px) {
+  img {
+background-size: cover;
+  }
+}
+
+.Errorpage{
+  background-color: #282c34;
+  width: 100%;
+  height: 100%;
+  /* margin-bottom: -7%; */
+  background-size: contain;
+  position: absolute;
+}
+
+.Errorcont{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.Errorbutton{
+  position: relative;
+  opacity: 1;
+  font-size: 1.5vw !important;
+  left:43%;
+  margin-top: 32.5%;
+  border-radius: 50px !important;
+  border: none;
+  height: 70px;
+  text-align: center;
+  width: 15%;
+  background-color: #609FE2 !important;
+  color: whitesmoke !important;
+}
+
+.Errorbutton:hover{
+  background-color: #2072c1 !important;
+}
+
+
+
+/* 
+.PatentFormulas{
+  margin-top: 1%;
+} */
+
+
+
+img{
+  display: block;
+}
+
+.top-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2rem;
+  width: 4rem;
+  color: #4e545f;
+  position: fixed;
+  bottom: 5rem;
+  right: 2rem;
+  z-index: 999;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+  width: 25rem !important;
+  margin-left: -10.3% !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Wno {
+  margin-right: 55% !important;
+  }
+}
+
+
+.top-btn:hover{
+  cursor: pointer;
+  font-size: 2.3rem;
+}
+
+
+
+
+
+
+
+
