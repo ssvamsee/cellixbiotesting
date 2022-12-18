@@ -4,7 +4,7 @@ function About(){
         <>
             <div className="About">
                     <div className="AboutContainerh2">
-                        <h2 className="AboutUsh2">WHO ARE WE</h2>
+                        <h2 className="AboutUsh2">WHO WE ARE</h2>
                     </div>
                    
                     <div className="AboutContainer">
