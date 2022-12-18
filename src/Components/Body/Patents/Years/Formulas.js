@@ -6,10 +6,10 @@ function Formulas({formula}){
 
     return(
         <div>
-            <h3 className="PITBh4">FORMULAS</h3>
+            <h3 className="PITBh4">FORMULA</h3>
                         <div className="FormulaImgContainer">
                 {
-                    FormulaArray.length>1 ? FormulaArray.map((image) => {
+                    FormulaArray.length>=1 ? FormulaArray.map((image) => {
                         return(
                             
                         <img className='PatentImages' src={image} alt=""></img>
