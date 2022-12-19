@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 import { Link } from "react-router-dom";
 import {useParams} from 'react-router-dom';
 import PatentCardSkeleton from './PatentCardSkeleton';
-
+// import JwPagination from 'jw-react-pagination';
 
 function PatentsDashboard(){
     const [patents, setPatents] = useState("");
@@ -25,6 +25,10 @@ function PatentsDashboard(){
         };
         fetchData();
     }, []);
+    // this.state={
+    //     patents,
+    //     pageOfItems:[]
+    // };
 console.log(patents)
 
     return(

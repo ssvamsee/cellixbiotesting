@@ -12,11 +12,12 @@ function Claims({claim}){
                         return(
                           <div>
                             <div className="ClaimstextCon">
-                                <span className = "ClaimsText">{image}</span>
+                                <div className="ClaimsText" dangerouslySetInnerHTML={{__html: `<p className="ClaimsText">${image}</p>`}}></div>
+                                {/* <p className = "ClaimsText">{image}</p> */}
                             </div>
-                            <div className="ClaimsImgCon">
+                            {/* <div className="ClaimsImgCon">
                             <img className='PatentImages' src={image} alt=""></img>
-                            </div>
+                            </div> */}
                           </div>
                         )
                     }) : <img className="claimsdatanotfound" width={500} height={450}  src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.DataNotFound.png" alt="aws"></img>

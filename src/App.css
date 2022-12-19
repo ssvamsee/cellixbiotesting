@@ -846,7 +846,8 @@ font-size: 2vh;
 }
 @media screen and (max-width: 600px){
   .PatentImages{
-    width:40vh;
+    width:30vh;
+    margin-top: 10% !important;
  }  
 }
 
@@ -884,8 +885,8 @@ span.ClaimsText{
  }  
 }
 @media screen and (max-width: 600px){
-  .ClaimsText{
-    font-size: 1vh;
+   .ClaimsText{
+    font-size: 1.5vh !important;
  }  
 }
 .claimsdatanotfound{
