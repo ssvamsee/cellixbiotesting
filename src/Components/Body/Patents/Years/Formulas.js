@@ -11,8 +11,9 @@ function Formulas({formula}){
                 {
                     FormulaArray.length>=1 ? FormulaArray.map((image) => {
                         return(
-                            
-                        <img className='PatentImages' src={image} alt=""></img>
+                            <div className="ClaimsText" dangerouslySetInnerHTML={{__html: `<p className="ClaimsText">${image}</p>`}}></div>
+   
+                        // <img className='PatentImages' src={image} alt=""></img>
                         )
                     }) : <img width={500} height={450} src='https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.DataNotFound.png' alt='aws'></img>
                 }
