@@ -6,18 +6,20 @@ function IP(){
         <>
             <div className='IPContainer'>
                 <div className='IPContainerh3'>
-                   <h3 className="IPh3">INTELLECTUAL PROPERTY</h3>
+                <div className='DescContainerh3'><span></span>
+                <span className="WWDh3">INTELLECTUAL PROPERTY</span><span></span>
+                </div>
                 </div>
                 <div className="IPpContainerp">
-                    <p className="IPp"><span className="AboutSpan">Cellix Bio</span> has a portfolio of over 400+ international patents published. The Company has obtained 63 Composition of Matter Allowed / Issued U.S Patents from the US Patent & Trademark Office and 28 U.S Patent Pending Applications in diverse therapeutic areas. We are also committed to protecting our intellectual property estate of patent rights and trade secrets and the potential commercial and clinical advantages this protection provides for our proprietary technology.</p>
+                    <p className="IPp"><p className="AboutSpan">Cellix Bio</p> has a portfolio of over 400+ international patents published. The Company has obtained 63 Composition of Matter Allowed / Issued U.S Patents from the US Patent & Trademark Office and 28 U.S Patent Pending Applications in diverse therapeutic areas. We are also committed to protecting our intellectual property estate of patent rights and trade secrets and the potential commercial and clinical advantages this protection provides for our proprietary technology.</p>
                 </div>
                 <div className='IPContainerh4'>
                     <h4 className="IPh3">Our patent portfolio includes issued patents and patent applications in the world’s major markets</h4>
                 </div>
             </div>
             
-                <Accordion defaultActiveKey="0">
-                    <Accordion.Item eventKey="0">
+                <Accordion defaultActiveKey="0" >
+                    <Accordion.Item eventKey="0" >
                         <Accordion.Header><h4>CELLIX BIO's U.S PATENT APPLICATIONS</h4></Accordion.Header>
                             <Accordion.Body className='IPAB'>
                                 <Table striped bordered hover size="sm" className='mt-3 shadow-lg'>

@@ -4,7 +4,9 @@ function PT(){
         <>
             <div className="PT">
                 <div className="PTContainerh2h3h4">
-                   <h2 className="PTh2">PLATFORM TECHNOLOGY</h2>
+                <div className='DescContainerh3'><span></span>
+                <span className="WWDh3">PLATFORM TECHNOLOGIES</span><span></span>
+                </div>
                 </div>
 
                 <div className="PTh2">
@@ -32,7 +34,7 @@ function PT(){
                 </div>
                 
                 <div className="PTpContainer">
-                   <p className="PTp"><span className="AboutSpan">Cellix Bio's Synergix AI<sup>TM</sup></span> platform technology has the capability to deliver both clinical and commercial successes. Our approach is unique and enables important functional capabilities.</p>
+                   <p className="PTp"><p className="AboutSpan">Cellix Bio's Synergix AI<sup>TM</sup></p> platform technology has the capability to deliver both clinical and commercial successes. Our approach is unique and enables important functional capabilities.</p>
                 </div>
              </div>
 

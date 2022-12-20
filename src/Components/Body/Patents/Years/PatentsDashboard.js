@@ -35,7 +35,10 @@ console.log(patents)
         <div>
             <div className="PDcontainer">
                 <div className="PDcontainerh2">
-                    <h2 className="PDh2">Access the Patents filed by Cellix Bio in {years} below</h2>
+                    {/* <h2 className="PDh2">Access the Patents filed by Cellix Bio in {years} below</h2> */}
+                    <div className='DescContainerh3'><span></span>
+                <span className="WWDh3">Patents filed by CELLIX BIO in {years}</span><span></span>
+                </div>
                     {/* <h3 className="PDh2">No of International Patents in {years} are {patents.data.length}</h3> */}
                 </div>
             </div>
@@ -57,7 +60,7 @@ console.log(patents)
                                         </div>
                                         <div className='cardTextDateContainer'>
                                             <Card.Text>
-                                                <p><span className='CardTextSpan'>Publication Date: </span>{patent.publication_date}</p>
+                                                <p className='CardTextSpan'>Publication Date: {patent.publication_date}</p>
                                             </Card.Text>
                                         </div>
                                     </div>

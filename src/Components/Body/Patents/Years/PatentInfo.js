@@ -33,14 +33,15 @@ function PatentInfo(){
     
     return(
         <div>
-             <h2 className='PatentInfoh2'>{wno}</h2>
+            <h2 className='heading-primary'>
+             <p className='PatentInfoh2'>{wno}</p></h2>
             <Tabs
                 defaultActiveKey="Formulas"
                 id="uncontrolled-tab-example"
                 className="mb-3 shadow-lg Tabs"
                 fill
                 >
-                <Tab eventKey="Therapeutic Area" title="Therapeutic Area" active hide>
+                <Tab eventKey="Therapeutic Area" title="Therapeutic Area" name="Tabname" active hide>
                     <TherapeuticArea therapeuticArea = {therapeuticArea} diseases = {diseases}></TherapeuticArea>
                 </Tab>
                 <Tab eventKey="Formulas" title="Formulas">

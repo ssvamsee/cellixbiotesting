@@ -8,9 +8,9 @@ function Home(){
     return(
         <>
            <Carousel fade interval={2000}>
-                <Carousel.Item>
+                <Carousel.Item className='home_div'>
                         <img height={840}
-                            className="d-block w-100"
+                            className="d-block w-100 home_img"
                             src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Home.Carousel.1.PNG"
                             alt="First slide"
                         />
@@ -18,10 +18,10 @@ function Home(){
                             <h1 className='Carouselh1'>Welcome to Cellix Bio</h1>
                             <p className='Carouselp'>The Company that never stops Innovating and Inventing</p>
                         </Carousel.Caption>
-                </Carousel.Item>                
-                <Carousel.Item>
+                </Carousel.Item>              
+                <Carousel.Item className='home_div'>
                         <img height={840}
-                            className="d-block w-100"
+                            className="d-block w-100 home_img"
                             src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Home.Carousel.3.png"
                             alt="Second slide"
                         />
@@ -31,9 +31,9 @@ function Home(){
                         </Carousel.Caption>
                 </Carousel.Item>
                 
-                <Carousel.Item>
+                <Carousel.Item className='home_div'>
                         <img height={840}
-                            className="d-block w-100"
+                            className="d-block w-100 home_img"
                             src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Home.Carousel.4.PNG"
                             alt="Third slide"
                         />
