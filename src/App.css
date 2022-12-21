@@ -157,6 +157,7 @@ body{
 .WWDh3{
   text-align: center;
   font-weight: bolder;
+  font-family: sans-serif;
   /* text-decoration: #15B39D 1px solid !important; */
   color: #282c34;
   margin-top: 1%;
@@ -1215,12 +1216,65 @@ tbody,thead{
 /* ............................ */
 /* Used for Contact Us */
 .CUFormContainer{
-  width: 25%;
+  width: 40vw;
+  height: 35vw;
   margin-top: 1%;
-  margin-left: 37%;
+  margin-left: 6%;
+  background-color: #15B39D;
+  /* background-color: rgb(224, 222, 222) !important; */
+  border-radius: 10px;
+  align-items: center !important;
+}
+.form-control{
+  width: 30vw !important;
+  height: 2.5vw !important;
+  margin-left: 13%;
+  /* margin-top: 2%;  */
+}
+.form-control[name^=me]{
+  height: 4vw !important;
+}
+.form-label{
+  margin-left: 13%;
+  margin-top: 1.5%;
+  /* color: #f2f2f2; */
+  color: #0E6E59;
+  font-weight: bold;
 }
 
-.CUUL{
+.CUForm{
+  width: 30vw !important;
+  height: 2.5vw !important;
+  font-size: 1vw !important;
+  margin-left: 13%;
+  margin-bottom: -10% !important;
+  /* background-color:#f2f2f2 !important; */
+  background-image: linear-gradient(to right, #6CC8C2 0%, #15B39D 51%, #6CC8C2 100%) !important;
+  color: white !important;
+  font-weight: bolder !important;
+  transition: 0.5s !important;
+  background-size: 200% auto !important;
+  border: #0E6E59 1px solid !important;
+}
+
+.CUForm:hover{
+  background-position: right center !important ;
+}
+.contactimg{
+width:40vw;
+height: 35vw;
+margin-left: 10%;
+}
+/* .contactimgcontainer{
+  display: flex;
+  flex-direction: column;
+
+} */
+.contactcontainer{
+  display: flex;
+}
+
+/* .CUUL{
   list-style-type: none;
   margin-left: -5%;
 }
@@ -1259,17 +1313,15 @@ tbody,thead{
   .CUCard {
     margin-left: 8% !important;
   }
-}
-.form-control[name^=me]{
-  height: 100px;
-}
-@media screen and (max-width: 600px) {
+} */
+
+/* @media screen and (max-width: 600px) {
   .CUFormContainer{
     width: 40vh;
     margin-top: 1%;
     margin-left: 4%;
   }
-}
+} */
 /* ........................... */
 
 /* For All Cards */
@@ -1288,10 +1340,12 @@ tbody,thead{
   margin-top: 2%;
   border-radius: 5px !important;
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+  display: flex !important;
 }
 .LCardTitle.h5{
   text-align: center !important;
   font-size: 2vw;
+ 
 }
 
 .card-img-top{
@@ -1315,11 +1369,13 @@ tbody,thead{
   margin-left: 2% !important;
   border: none !important;
   box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important; 
+ 
+
 }
 .card-footer {
   text-align: center;
   font-size: 1vw !important;
-}
+ }
 
 @media screen and (max-width: 600px) {
   .Leadership.card {
@@ -1609,7 +1665,49 @@ img{
 }
 
 
+.LeaderContainer{
+  display: flex;
+  width: 80vw;
+  height: 22vw;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  margin-left: 10%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ 
+}
+.LeaderImgContainer{
+  position: relative;
+  text-align: center;
+  /* color: white; */
+}
+.LeaderImg{
+  height: 22vw;
+  width: 20vw;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.LeaderTitleContainer{
+position: absolute;
+bottom:0.1vw;
+background-color: #0E6E59;
+color: white;
+left: 0.2vw;
+width: 19.5vw;
+height: 5vw;
+}
+.LeaderSubTitleContainer{
+  margin-left: 9%;
+  width:50vw;
+  /* border: red 2px solid; */
+}
 
+.LeaderMsg{
+  font-size: 1.3vw;
+}
+hr.LeaderHr{
+  border:20px #0E6E59 solid
+}
+.Leadertext{
+}
 
 
 

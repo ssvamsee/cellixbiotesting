@@ -5,8 +5,10 @@ function Contact() {
   document.title = 'Contact - Cellix Bio';
   return (
     <>
-      <h2 className='CUh2'>CONTACT US</h2>
-      <Address></Address>
+      <div className='DescContainerh3'><span></span>
+                <span className="WWDh3">GET IN TOUCH</span><span></span>
+                </div>
+      {/* <Address></Address> */}
       <SendUsEmail></SendUsEmail>
     </>
   );

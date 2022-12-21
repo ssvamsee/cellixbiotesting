@@ -47,7 +47,7 @@ function Desc(){
                     </Carousel>
                 </div>
                 <div className='DescContainerh3'><span></span>
-                <span>PATENTS UNDER CELLIX BIO</span><span></span>
+                <span className="WWDh3">PATENTS UNDER CELLIX BIO</span><span></span>
                 </div>
                 <div className='DescpContainerp'>
                     <p className='Descp'>Cellix Bio has over 400 international patents in its portfolio. The Company has 63 Composition of Matter Allowed / Issued US Patents and 28 US Patent Pending Applications from the US Patent & Trademark Office in various therapeutic areas. We are also committed to safeguarding our intellectual property estate, which includes patent rights and trade secrets, as well as the potential commercial and clinical benefits that this safeguard provides for our proprietary technology.</p>
