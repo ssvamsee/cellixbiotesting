@@ -100,10 +100,81 @@ body{
 /* .............. */
 
 /* Used for Carousel for Home Page */
+.landingpage{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  transition: 0.5s;
+
+}
+.video-bg{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+  top: 0;
+}
+.bg-overlay{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position:absolute;
+  top:0;
+  z-index: 0;
+}
+.home-text{
+  width: 80%;
+  /* height: 60%; */
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  z-index: 2;
+  height: 10em; 
+  position: relative;
+}
+.home-text>*{
+  animation: 18s autoplay infinite linear;
+  position: absolute; top: 0; left: 0; opacity: 0.0
+}
+@keyframes autoplay {
+  0% {opacity: 0.0;
+      margin-left: 5em;
+  }
+
+  4% {opacity: 1.0}
+  33.33% {opacity: 1.0}
+  37.33% {opacity: 0.0}
+  100% {opacity: 0.0}
+}
+.home-text>*:nth-child(1) {animation-delay: 0s}
+.home-text>*:nth-child(2) {animation-delay: 6s}
+.home-text>*:nth-child(3) {animation-delay: 12s}
+
+
+
 .Carouselh1{
-  margin-top: -50vh !important;
-  font-size: 4vw;
+  /* margin-top: -50vh !important; */
+  font-size: 6em;
   color: white;
+}
+.Carouselh1{
+  animation: fade;
+  animation-duration: 2s;
+}
+@keyframes fade {
+  0%{
+    opacity: 0;
+    margin-left: 5em;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 .home_div{
   background: black;
@@ -115,9 +186,11 @@ body{
 }
 
 .Carouselp{
-  font-size: 1.5vw;
-  margin-top: 5% !important;
+  font-size: 1.5em;
+  /* margin-top: 5% !important; */
   opacity: 1;
+  color: white;
+
 }
 @media screen and (max-width: 600px) {
   p.Carouselp {
@@ -557,6 +630,7 @@ font-size: 3vh;
 
 .SearchBarPatents{
   width: 43vw;
+  height: 3vw !important;
   border: 1px solid;
   padding: 10px 25px;
   font-size: 20px;
@@ -575,7 +649,7 @@ font-size: 3vh;
   background-color: white;
   margin-bottom: 1%;
   margin-left: 68vw;
-  margin-top: 2.3vw;
+  margin-top: 2.5vw;
   position: relative;
 }
 .PatentsCard{
@@ -1133,6 +1207,9 @@ font-size: 2vh;
     width: 45vh !important;
   }
 }
+button.accordion-button::after{
+  /* background-image: none !important; */
+}
 .accordion-button{
   color:whitesmoke  !important;
   background-color: #0E6E59 !important;
@@ -1264,6 +1341,7 @@ tbody,thead{
 width:40vw;
 height: 35vw;
 margin-left: 10%;
+margin-top: 2%;
 }
 /* .contactimgcontainer{
   display: flex;
@@ -1639,7 +1717,7 @@ img{
   align-items: center;
   font-size: 2.2rem;
   width: 4rem;
-  color: #4e545f;
+  color: #15B39D;
   position: fixed;
   bottom: 5rem;
   right: 2rem;
@@ -1686,13 +1764,15 @@ img{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .LeaderTitleContainer{
+
 position: absolute;
-bottom:0.1vw;
+bottom:0.2vw;
 background-color: #0E6E59;
 color: white;
-left: 0.2vw;
+left: 0.25vw;
 width: 19.5vw;
-height: 5vw;
+height: 6vw;
+border-radius: 10px;
 }
 .LeaderSubTitleContainer{
   margin-left: 9%;

@@ -105,7 +105,7 @@ const PostData = async (e) => {
                 </Form>
           </div>
           <div className='contactimgcontainer'>
-          <img className='contactimg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/testing/contact.jpg" alt='Limage'/>
+          <img className='contactimg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/testing/contacts.jpg" alt='Limage'/>
 
           </div>
           </div>
