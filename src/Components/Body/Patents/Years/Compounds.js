@@ -10,7 +10,7 @@ function Compounds({compound}){
                 {
                         CompoundArray.length>1 ? CompoundArray.map((image) => {
                             return(
-                                <div className="ClaimsText" dangerouslySetInnerHTML={{__html: `<p className="ClaimsText">${image}</p>`}}></div>
+                                <div className="Compoundcon" dangerouslySetInnerHTML={{__html: `<p className="CImage">${image}</p>`}}></div>
 
                             // <img className='PatentImages' src={image} alt=""></img>
                             )

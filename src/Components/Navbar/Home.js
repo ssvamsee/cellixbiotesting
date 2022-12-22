@@ -1,9 +1,12 @@
-import Carousel from 'react-bootstrap/Carousel';
+// import Carousel from 'react-bootstrap/Carousel';
+import Button from 'react-bootstrap/esm/Button';
+import { useNavigate } from 'react-router-dom';
 // import ModalDialog from '../Body/Intro/ModalDialog';
-import PatentHome from '../Body/PatentHome';
+// import PatentHome from '../Body/PatentHome';
 import Teamwork from '../Body/Teamwork';
 import WWD from '../Body/WWD';
 function Home(){
+    const navigate = useNavigate();
     document.title = 'Home - Cellix Bio';
     return(
         <>
@@ -24,7 +27,10 @@ function Home(){
                                 <h1 className='Carouselh1'>Harnessing the Data</h1>
                                 <p className='Carouselp'>Synergix AI<sup>TM</sup> is pioneering a transformative new big data approach to discovery and development of treatments provides more effective precision treatments for individuals as well as a reduction in costs to our healthcare systems</p>
                             </div>
-                    </div>
+                     </div>
+                    <Button onClick={() => navigate('/Patents')} variant="outline-info" className='PatentHomeButton'>Get Started</Button>
+                    {/* <Link className='homeBtn' to="./Patents">Get Started</Link> */}
+
                 </div>
            {/* <Carousel fade interval={2000}>
                 <Carousel.Item className='home_div'>
@@ -63,7 +69,7 @@ function Home(){
                 </Carousel.Item>
             </Carousel> */}
             <WWD></WWD>
-            <PatentHome></PatentHome>
+            {/* <PatentHome></PatentHome> */}
             <Teamwork></Teamwork>
             {/* <ModalDialog/> */}
         </>

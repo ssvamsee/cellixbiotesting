@@ -40,6 +40,7 @@ const PostData = async (e) => {
 }
     return(
         <>
+        
             {/* <h3 className='CUh3'>Send Us an Email</h3> */}
             <div className='contactcontainer'>
              <div className='CUFormContainer'>
@@ -105,10 +106,11 @@ const PostData = async (e) => {
                 </Form>
           </div>
           <div className='contactimgcontainer'>
-          <img className='contactimg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/testing/contacts.jpg" alt='Limage'/>
+          <img className='contactimg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/testing/business-woman.png" alt='Limage'/>
 
           </div>
           </div>
+        
         </>
     );
 }

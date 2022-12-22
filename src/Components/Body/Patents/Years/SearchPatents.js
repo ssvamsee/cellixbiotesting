@@ -22,7 +22,7 @@ function SearchPatents(){
     return(
         <div>
             <div className="SearchPatentsh2Container">
-                <h3 className="SearchPatentsh2">Search For Patents under Cellix Bio by entering WIPO Number or Therapeutic Area</h3>
+                <h3 className="SearchPatentsh2">Search For Patents under Cellix Bio by WIPO Number or Therapeutic Area</h3>
             </div>
             <div>
                 <div className="SearchPatentContainer">

@@ -37,7 +37,7 @@ console.log(patents)
                 <div className="PDcontainerh2">
                     {/* <h2 className="PDh2">Access the Patents filed by Cellix Bio in {years} below</h2> */}
                     <div className='DescContainerh3'><span></span>
-                <span className="WWDh3">Patents filed by CELLIX BIO in {years}</span><span></span>
+                <span className="PDhead">Patents filed by CELLIX BIO in {years}</span><span></span>
                 </div>
                     {/* <h3 className="PDh2">No of International Patents in {years} are {patents.data.length}</h3> */}
                 </div>
@@ -46,7 +46,7 @@ console.log(patents)
                 patents?.map((patent) => (
                     <div className='CardContainer'>
                             <Card
-                                style={{ width: '90rem' }} 
+                                // style={{ width: '90rem' }} 
                                 className = "shadow-lg PatentsCard">
                                <Card.Body>
                                     <Card.Title>

@@ -11,8 +11,9 @@
  border-bottom: #15B39D 2px solid;
 
 }
+
 .navbar_link{
-	font-size: 0.8vw !important;
+	font-size: 1em !important;
 	color: white !important;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -28,6 +29,12 @@
 	transition: all 0.4s ease;
 	padding: 30px; */
 }
+@media screen and (max-width:600px) {
+	.navbar_link{
+		margin-left: 5%;
+	}	
+}
+
 /* a:hover { color: #f69ec4 !important;  }
 a:hover::after { width: 100%; } */
 .navbar_link:hover{
@@ -84,6 +91,7 @@ a:hover::after { width: 100%; } */
   text-decoration: none;
   color:white ;
   }
+ 
   .hamburger-toggle{
 	cursor: pointer;
 	color: #8F9091;
